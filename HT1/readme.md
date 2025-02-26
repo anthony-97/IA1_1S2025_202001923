@@ -1,6 +1,6 @@
 # Hoja de trabajo 1
 
-**Laboratorio Inteligencia Artificial 1**:
+**Laboratorio Inteligencia Artificial 1**
 
 **Anthony Alexander Aquino Santiago**
 
