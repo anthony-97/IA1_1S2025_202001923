@@ -1,0 +1,90 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #2992ca;
+    color: skyblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: purple;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.file-upload {
+    margin-bottom: 15px;
+}
+
+.custom-file-label {
+    display: inline-block;
+    background: #ffcc00;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+/* Contenedor de consulta */
+#queryInputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#output {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    resize: none;
+    font-size: 14px;
+    background: #fff;
+    color: black;
+    outline: none;
+}

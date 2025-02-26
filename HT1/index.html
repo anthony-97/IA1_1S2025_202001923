@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HT1 - 202001923</title>
+    <script src="tau-prolog.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HT1 202001923</h1>
+
+        <div class="file-upload">
+            <label for="fileInput" class="custom-file-label">📂 Cargar archivo de base de conocimientos .pl (Prolog)</label>
+            <input type="file" id="fileInput" accept=".pl">
+        </div>
+
+        <div id="queryInputContainer">
+            <input type="text" id="queryInput" placeholder="Ingrese la consulta">
+            <button id="queryButton" onclick="runQuery()">Consultar</button>
+        </div>
+
+        <textarea id="output" readonly></textarea>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
